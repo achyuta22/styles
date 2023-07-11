@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(1, 21, 40);
+    padding: 10% 0 0 10%;
+    /* background-image: url("image1.jpg"); */
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+}
+h1{
+    display: block;
+    color: aliceblue;
+    padding: 0%;
+    font-size:4vw;
+    font-family:Sans-serif;
+    margin-block-end: 0.3em;
+}
+h2{
+    /* color:rgb(139 146 143 / 50%); */
+    color: aliceblue;
+padding: 0;
+    font-size:2vw;
+    font-family: Sans-serif;
+    margin-block-start: 0.3em;
+}
+p{
+    font-size: 1.5vw;
+    color:rgb(109, 109, 109);
+    margin-block-start: 0.1em;
+    margin-block-end: 0;
+}
+.container{
+    width:100%;
+}
+.side-by-side{
+    display: inline block;
+    margin-right: 10px;
+}
+.split{
+    height:100%;
+    width:50%;
+    position:fixed;
+    z-index:0;
+    top:0;
+    overflow-x:hidden;
+    padding-top:20px;
+}
+.left{
+    left:5;
+    padding-top: 8%;
+}
+.right{
+    right:0;
+    padding-top: 11%;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+.container{
+  padding-top: 2%;
+  display:inline-block
+}
+.container span{
+    margin: 10px;
+}
+.fa{
+padding-left: 3%;
+padding-top: 3%;
+}
+a{
+    color: grey;
+}
+.scroll-container {
+    width: 350px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  .scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+  }
+  .d{
+    /* Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface. */
+    color: white;
+  }
+  .d{
+    padding-bottom: 20%;
+    font-size: 1.5vw;
+  }
+  span{
+    padding-top: 10%;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
